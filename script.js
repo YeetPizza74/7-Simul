@@ -349,10 +349,10 @@ document.querySelector('#enterscramble').addEventListener("click", function() {
           c2+=random[z]*matrices[order[2]][order[1].indexOf(i)*2+1][z]
         }
         if(["ur","dr","UL","DL","L","\\"].includes(i) || (i=="U" && document.querySelector("#umove").value=="left") || (i=="D" && document.querySelector("#dmove").value=="left")){
-          realMemo += l[(c2+144)%12] + l[(c+144)%12] + " ";
+          realMemo += l[(c+144)%12] + l[(c2+144)%12] + " ";
         }
         else{
-          realMemo += l[(c+144)%12] + l[(c2+144)%12] + " ";
+          realMemo += l[(c2+144)%12] + l[(c+144)%12] + " ";
         }
       }
     }
