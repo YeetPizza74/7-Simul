@@ -6,7 +6,7 @@ let memo = "";
 let realMemo = "";
 let enteredscramble = "";
 let pinpositions = ["UR", "UL", "DR", "DL", "UR DR DL UL", "UR DR DL", "UR DR UL", "UR DL UL", "DR DL UL", "DR UL", "UR DL", "UR DR", "DL UL", "UR UL", "DR DL", ""]
-let l = ["L","A","B","C","D","E","F","G","H","I","J","K"];
+let l = ["S","T","N","M","R","L","B","K","F","P","G","D"];
 let executionMode = false
 document.querySelector("#executionTrainer").checked=false
 
