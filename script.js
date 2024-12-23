@@ -349,10 +349,10 @@ document.querySelector('#enterscramble').addEventListener("click", function() {
           c2+=random[z]*matrices[order[2]][order[1].indexOf(i)*2+1][z]
         }
         if(["ur","dr","UL","DL","L","\\"].includes(i) || (i=="U" && document.querySelector("#umove").value=="left") || (i=="D" && document.querySelector("#dmove").value=="left")){
-          realMemo += l[(c+144)%12] + l[(c2+144)%12] + " ";
+          realMemo += l[(c2+144)%12] + l[(c+144)%12] + " ";
         }
         else{
-          realMemo += l[(c2+144)%12] + l[(c+144)%12] + " ";
+          realMemo += l[(c+144)%12] + l[(c2+144)%12] + " ";
         }
       }
     }
@@ -377,7 +377,7 @@ function toggleVisibility() {
 
 document.querySelector("#letters").addEventListener("click", function() {
   if (true) {
-    l = ["L","A","B","C","D","E","F","G","H","I","J","K"];
+    l = ["S","T","N","M","R","L","B","K","F","P","G","D"];
   }
 });
 document.querySelector("#ryan").addEventListener("click", function() {
