@@ -7,8 +7,8 @@ let realMemo = "";
 let enteredscramble = "";
 let pinpositions = ["UR", "UL", "DR", "DL", "UR DR DL UL", "UR DR DL", "UR DR UL", "UR DL UL", "DR DL UL", "DR UL", "UR DL", "UR DR", "DL UL", "UR UL", "DR DL", ""]
 let l = ["S","T","N","M","R","L","B","K","F","P","G","D"];
-let executionMode = false
-document.querySelector("#executionTrainer").checked=false
+let executionMode = true
+document.querySelector("#executionTrainer").checked=true
 
 document.querySelector("#mobileInput").style.display = "none"
 let details = navigator.userAgent;
